@@ -1,8 +1,7 @@
-# 𝐄𝐈𝐓𝐇𝐎𝐍 𝐌𝐔𝐒𝐈𝐂 🇸🇾🇸🇾🇸🇾
+# ◜𝚊 𝚗 𝚍 𝚛 𝚘 𝚒 𝚍◞
  
-## • Source updates : @EITHOM
+## • ◜Source Lotus◞ :@TmLotus
 
 
-## • DEV : Mohmad990754 
+## • DEV : ◜𝚊 𝚗 𝚍 𝚛 𝚘 𝚒 𝚍◞
 
-## • CH : EITHON 
