@@ -57,8 +57,8 @@ async def play(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="• القائمة", callback_data="cbmenu"),
-                InlineKeyboardButton(text="• إغلاق", callback_data="cls"),
+                InlineKeyboardButton(text="~ القائمة`, callback_data="cbmenu"),
+                InlineKeyboardButton(text="~إغلاق`, callback_data="cls"),
             ]
         ]
     )
@@ -139,7 +139,7 @@ async def play(c: Client, m: Message):
                 )
             else:
              try:
-                await suhu.edit("🔄 **يتم التشغيل...**")
+                await suhu.edit(" **يتم التشغيل يقلبي🙂💞...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioPiped(
@@ -189,7 +189,7 @@ async def play(c: Client, m: Message):
                             )
                         else:
                             try:
-                                await suhu.edit("🔄 **يتم التشغيل...**")
+                                await suhu.edit(" **يتم التشغيل يقلبي🙂💞...**")
                                 await call_py.join_group_call(
                                     chat_id,
                                     AudioPiped(
@@ -215,7 +215,7 @@ async def play(c: Client, m: Message):
                 "» الرد على ** ملف صوتي ** أو ** أكتب شي للبحث**"
             )
         else:
-            suhu = await c.send_message(chat_id, "🔎 **جاري البحث...**")
+            suhu = await c.send_message(chat_id, " **جاري البحث يحب🙂💞...**")
             query = m.text.split(None, 1)[1]
             search = ytsearch(query)
             if search == 0:
@@ -240,7 +240,7 @@ async def play(c: Client, m: Message):
                         )
                     else:
                         try:
-                            await suhu.edit("🔄 **يتم التشغيل...**")
+                            await suhu.edit(" **يتم التشغيل يقلبي🙂💞...**")
                             await call_py.join_group_call(
                                 chat_id,
                                 AudioPiped(
@@ -331,7 +331,7 @@ async def stream(c: Client, m: Message):
         await m.reply("» أعطني رابط مباشر / من اليوتيوب للتشغيل")
     else:
         link = m.text.split(None, 1)[1]
-        suhu = await c.send_message(chat_id, "🔄 **تتم المعالجة انتظر قليلآ...**")
+        suhu = await c.send_message(chat_id, " **تتم المعالجة انتظر قليلآ🙈💞...**")
 
         regex = r"^(https?\:\/\/)?(www\.youtube\.com|youtu\.?be)\/.+"
         match = re.match(regex, link)
@@ -355,7 +355,7 @@ async def stream(c: Client, m: Message):
                 )
             else:
                 try:
-                    await suhu.edit("🔄 **يتم الانضمام انتظر قليلآ...**")
+                    await suhu.edit(" **يتم الانضمام انتظر قليلآ🙈💞...**")
                     await call_py.join_group_call(
                         chat_id,
                         AudioPiped(
